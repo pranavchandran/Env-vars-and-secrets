@@ -5,7 +5,7 @@ on:
       - main
       - dev
 env:
-  MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
+  MONGO_DB_NAME: GITHUBEVENTS
 jobs:
   test:
     env:
